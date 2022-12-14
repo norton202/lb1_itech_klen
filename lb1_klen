@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<h3>Лабораторна робота 1</h3>
+		</header>
+		<main>
+			<div id="first-task">
+				<h4>Перше завдання</h4>
+				Для будь-якого натурального числа <b>n>2</b> рівняння
+				<i>a<sup>n</sup>+b<sup>n</sup>=c<sup>n</sup></i>
+				<b>не має рішень</b> при цілих ненульових числах a, b, c.
+			</div>
+			<div id="second-task">
+				<h4>Друге завдання</h4>
+				<ul>
+					<li>
+						Факультет КН
+						<ul>
+							<li>Кафедра інформаційних управляючих систем (ІУС)</li>
+							<li>Кафедра штучного інтелекту (ШІ)</li>
+							<li>Кафедра системотехніки (СТ)</li>
+						</ul>
+					</li>
+					<li>
+						Факультет КІУ
+						<ul>
+							<li>
+								Кафедра Комп'ютерних інтеллектуальних технологій і систем (КІТС)
+							</li>
+							<li>Кафедра Електронних обчислювальних машин (ЕВМ)</li>
+							<li>Кафедра безпеки інформаційних технологій (БІТ)</li>
+						</ul>
+					</li>
+					<li>
+						Факультет АКТ
+						<ul>
+							<li>
+								Кафедра комп'ютерно-інтегрированих технологій, автоматизації та
+								мехатроніки (КІТАМ)
+							</li>
+							<li>
+								Кафедра проектування та експлуатації електронних апаратів
+								(ПЕЕА)
+							</li>
+							<li>Кафедра фізики</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="third-task">
+				<h4>Третє завдання</h4>
+				<p>Таблиця крос-курсів валют Форекс</p>
+				<table border="1px">
+					<tr>
+						<th>Валюта</th>
+						<th>USD</th>
+						<th>EUR</th>
+						<th>GBP</th>
+						<th>JPY</th>
+					</tr>
+					<tr>
+						<th>USD</th>
+						<td>1</td>
+						<td>0,9385</td>
+						<td>0,8073</td>
+						<td>135,53</td>
+					</tr>
+					<tr>
+						<th>EUR</th>
+						<td>1,0657</td>
+						<td>1</td>
+						<td>0,8602</td>
+						<td>144,47</td>
+					</tr>
+					<tr>
+						<th>GBP</th>
+						<td>1,2390</td>
+						<td>1,1625</td>
+						<td>1</td>
+						<td>167,94</td>
+					</tr>
+					<tr>
+						<th>JPY</th>
+						<td>0,738200</td>
+						<td>0,69230</td>
+						<td>0,005956</td>
+						<td>1</td>
+					</tr>
+				</table>
+			</div>
+			<div id="fourth-task">
+				<h4>Четверте завдання</h4>
+				<form action="#">
+					<p>Яка валюта ваш фаворит у трейдинзі?</p>
+					<label for="vote1">USD</label>
+					<input type="radio" name="vote" id="vote1" />
+					<label for="vote2">EUR</label>
+					<input type="radio" name="vote" id="vote2" />
+					<label for="vote3">GBP</label>
+					<input type="radio" name="vote" id="vote3" />
+					<label for="vote4">JPY</label>
+					<input type="radio" name="vote" id="vote4" />
+					<input type="submit" value="Голосувати" />
+				</form>
+			</div>
+		</main>
+		<footer>
+			<div id="fifth-task">
+				<h4>П'яте завдання</h4>
+				<ol>
+					<li><a href="#first-task">Перше завдання</a></li>
+					<li><a href="#second-task">Друге завдання</a></li>
+					<li><a href="#third-task">Третє завдання</a></li>
+					<li><a href="#fourth-task">Четверте завдання</a></li>
+					<li><a href="#fifth-task">П'яте завдання</a></li>
+				</ol>
+			</div>
+		</footer>
+	</body>
+</html>
